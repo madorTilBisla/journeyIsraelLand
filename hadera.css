@@ -1,0 +1,87 @@
+body {
+    height: 117vh;
+    height: calc(var(--vh, 1vh) * 117);
+    width: 100vw;
+    background-image: url("images/Qhadera.png");
+    background-size: 100vw 100vh;
+    background-size: 100vw calc(var(--vh, 1vh) * 100);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.cities {
+    position: absolute;
+    height: 8vh;
+    height: calc(var(--vh, 1vh) * 8);
+    width: 48vw;
+    left: 28vw;
+}
+
+#videoCity {
+    position: absolute;
+    height: 23.5vh;
+    height: calc(var(--vh, 1vh) * 23.5);
+    width: 57vw;
+    left: 23vw;
+    top: 28.7vh;
+    top: calc(var(--vh, 1vh) * 28.7);
+}
+
+#answer1correct {
+    top: 60vh;
+    top: calc(var(--vh, 1vh) * 60);
+}
+
+#answer4 {
+    top: 70vh;
+    top: calc(var(--vh, 1vh) * 70);
+}
+
+#answer2 {
+    top: 80vh;
+    top: calc(var(--vh, 1vh) * 80);
+}
+
+#answer3 {
+    top: 90vh;
+    top: calc(var(--vh, 1vh) * 90);
+}
+
+#true {
+    position: absolute;
+    height: 40vh;
+    height: calc(var(--vh, 1vh) * 40);
+    width: 85vw;
+    left: 8vw;
+    top: 60vh;
+    top: calc(var(--vh, 1vh) * 60);
+    visibility: hidden;
+}
+
+#false {
+    position: absolute;
+    height: 40vh;
+    height: calc(var(--vh, 1vh) * 40);
+    width: 85vw;
+    left: 8vw;
+    top: 59.6vh;
+    top: calc(var(--vh, 1vh) * 59.6);
+    visibility: hidden;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@media only screen and (max-width: 440px) {
+    body,
+    html {
+        margin: 0px;
+        padding: 0px;
+    }
+}
